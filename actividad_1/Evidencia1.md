@@ -49,7 +49,7 @@ Es la parte de una instrucción que **especifica la operación** que debe realiz
 
 Cada uno de los componentes interactúa entre sí para simular un computador de **16 bits**. La tarea principal de esta simulación es ejecutar un **programa previamente cargado**, que gestiona la interacción de la CPU, la ROM y la memoria para realizar tareas específicas.
 
-![Circuito](images1/circuito.png)
+![Circuito](Images1/circuito.png)
 
 El sistema está compuesto por las siguientes partes clave: **CPU**, **ROM** y **Memoria**.
 
@@ -59,7 +59,7 @@ El sistema está compuesto por las siguientes partes clave: **CPU**, **ROM** y *
 
 - La **ROM** almacena el **programa** que se ejecuta en el computador simulado. Este programa contiene todas las instrucciones necesarias para que la CPU pueda procesar y llevar a cabo las tareas requeridas por el sistema.
 
-![Pantalla](images1/pantalla.png)
+![Pantalla](Images1/pantalla.png)
 
 El componente **HackDisplay** se encuentra en la memoria y es el responsable de mostrar la salida visual del programa en una pantalla de **512 px x 256 px**. Esta pantalla refleja lo que ocurre en el sistema, mostrando los cambios en tiempo real según las interacciones del usuario (por ejemplo, cuando se presionan las teclas `1`, `2`, `3` o `4`).
 

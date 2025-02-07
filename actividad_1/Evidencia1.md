@@ -65,7 +65,7 @@ El componente **HackDisplay** se encuentra en la memoria y es el responsable de 
 ## Simulación en Digital
 La simulación emula un **computador de 16 bits** que ejecuta un **programa cargado** en la CPU, ROM y memoria.
 
-![Circuito](images1/circuito.png)
+![Circuito](Images1/circuito.png)
 
 - **CPU**: Solicita datos desde **ROM**, los decodifica y los procesa. 
 - **Memoria**: Almacena datos y actualiza la información en la pantalla.
@@ -127,4 +127,4 @@ Este ciclo se repite hasta que el programa termine.
 ## Simulación NAND2TETRIS
 La simulación muestra cómo el **programa en código `.asm`** interactúa con la **CPU, registros y memoria**. Un contador en la posición `16` y un acumulador en la `17` cuentan hasta **100**.
 
-![Nand2Tetris](images1/nand2tetris.png)
+![Nand2Tetris](Images1/nand2tetris.png)

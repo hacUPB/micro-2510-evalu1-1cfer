@@ -38,14 +38,8 @@ Contiene datos permanentes como el **firmware**.
 
 > La **ROM** ha evolucionado a tecnologías como **EEPROM** o **FLASH MEMORY**.
 
-<<<<<<< HEAD
 ## **Opcode**
 Especifica la **operación** que la CPU debe realizar, como **sumar**, **comparar** o **mover datos**.
-=======
-## **OPCODE**
-Es la parte de una instrucción que **especifica la operación** que debe realizar la CPU, como **sumar**, **comparar** o **mover datos**.
-
-
 
 ## Simulación en Digital
 
@@ -66,8 +60,6 @@ El sistema está compuesto por las siguientes partes clave: **CPU**, **ROM** y *
 El componente **HackDisplay** se encuentra en la memoria y es el responsable de mostrar la salida visual del programa en una pantalla de **512 px x 256 px**. Esta pantalla refleja lo que ocurre en el sistema, mostrando los cambios en tiempo real según las interacciones del usuario (por ejemplo, cuando se presionan las teclas `1`, `2`, `3` o `4`).
 
 Ésta es una simulación básica de un computador de **16 bits** y refleja la **interacción** entre los componentes clave de una arquitectura de computadora.
->>>>>>> 1897cb6bb440215fc32e2ca3f29da201eac9a4a6
-
 ---
 
 ## Simulación en Digital

@@ -38,8 +38,35 @@ Contiene datos permanentes como el **firmware**.
 
 > La **ROM** ha evolucionado a tecnologías como **EEPROM** o **FLASH MEMORY**.
 
+<<<<<<< HEAD
 ## **Opcode**
 Especifica la **operación** que la CPU debe realizar, como **sumar**, **comparar** o **mover datos**.
+=======
+## **OPCODE**
+Es la parte de una instrucción que **especifica la operación** que debe realizar la CPU, como **sumar**, **comparar** o **mover datos**.
+
+
+
+## Simulación en Digital
+
+Cada uno de los componentes interactúa entre sí para simular un computador de **16 bits**. La tarea principal de esta simulación es ejecutar un **programa previamente cargado**, que gestiona la interacción de la CPU, la ROM y la memoria para realizar tareas específicas.
+
+![Circuito](Images1/circuito.png)
+
+El sistema está compuesto por las siguientes partes clave: **CPU**, **ROM** y **Memoria**.
+
+- La **CPU** es responsable de **solicitar datos** desde la **ROM**, donde se encuentra el programa cargado. Su función es **decodificar las instrucciones** contenidas en el programa y procesarlas de acuerdo a lo que se requiere. Después, la CPU actualiza los valores en la memoria para reflejar los cambios y preparar la salida.
+  
+- La **Memoria** se utiliza para almacenar tanto los datos del programa como la información que se actualiza a lo largo de la ejecución. En ella también se encuentra el componente **HackDisplay**, que gestiona la salida visual en la pantalla.
+
+- La **ROM** almacena el **programa** que se ejecuta en el computador simulado. Este programa contiene todas las instrucciones necesarias para que la CPU pueda procesar y llevar a cabo las tareas requeridas por el sistema.
+
+![Pantalla](Images1/pantalla.png)
+
+El componente **HackDisplay** se encuentra en la memoria y es el responsable de mostrar la salida visual del programa en una pantalla de **512 px x 256 px**. Esta pantalla refleja lo que ocurre en el sistema, mostrando los cambios en tiempo real según las interacciones del usuario (por ejemplo, cuando se presionan las teclas `1`, `2`, `3` o `4`).
+
+Ésta es una simulación básica de un computador de **16 bits** y refleja la **interacción** entre los componentes clave de una arquitectura de computadora.
+>>>>>>> 1897cb6bb440215fc32e2ca3f29da201eac9a4a6
 
 ---
 

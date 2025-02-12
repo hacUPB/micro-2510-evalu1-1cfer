@@ -59,20 +59,6 @@ El sistema está compuesto por las siguientes partes clave: **CPU**, **ROM** y *
 
 El componente **HackDisplay** se encuentra en la memoria y es el responsable de mostrar la salida visual del programa en una pantalla de **512 px x 256 px**. Esta pantalla refleja lo que ocurre en el sistema, mostrando los cambios en tiempo real según las interacciones del usuario (por ejemplo, cuando se presionan las teclas `1`, `2`, `3` o `4`).
 
-Ésta es una simulación básica de un computador de **16 bits** y refleja la **interacción** entre los componentes clave de una arquitectura de computadora.
----
-
-## Simulación en Digital
-La simulación emula un **computador de 16 bits** que ejecuta un **programa cargado** en la CPU, ROM y memoria.
-
-![Circuito](Images1/circuito.png)
-
-- **CPU**: Solicita datos desde **ROM**, los decodifica y los procesa. 
-- **Memoria**: Almacena datos y actualiza la información en la pantalla.
-- **ROM**: Contiene el programa ejecutado en la CPU.
-
-**HackDisplay**: Se encuentra en la memoria, mostrando la salida visual en una pantalla de **512 px x 256 px**.
-
 ---
 
 ### **¿Qué es un programa y dónde se almacena?**
